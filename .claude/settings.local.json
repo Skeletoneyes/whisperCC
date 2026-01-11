@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(ffmpeg:*)",
+      "Bash(cmd.exe:*)",
+      "Bash(pip install:*)",
+      "Bash(set \"PATH=%PATH%;C:\\\\Users\\\\joshu\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Links\")",
+      "Bash(cmd /c \"set PATH=%PATH%;C:\\\\Users\\\\joshu\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Links && python -c \"\"import whisper; model = whisper.load_model\\(''tiny''\\); result = model.transcribe\\(''tests/jfk.flac''\\); print\\(result[''text'']\\)\"\"\")",
+      "Bash(powershell -Command \"$env:PATH += '';C:\\\\Users\\\\joshu\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Links''; python -c \"\"import whisper; model = whisper.load_model\\(''tiny''\\); result = model.transcribe\\(''tests/jfk.flac''\\); print\\(result[''text'']\\)\"\"\")",
+      "Bash(dir \"C:\\\\Users\\\\joshu\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Links\\\\ffmpeg*\")",
+      "Bash(powershell:*)",
+      "Bash(findstr:*)",
+      "WebSearch",
+      "WebFetch(domain:github.com)"
+    ]
+  }
+}
